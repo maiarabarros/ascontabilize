@@ -1,0 +1,123 @@
+* { margin: 0;
+    padding: 0;    
+box-sizing: border-box }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#c2bed39d;
+ 
+}
+
+header {
+   
+    color:#1E6BC4;
+    text-align: center;
+    padding: 50px;
+    text-decoration: bold;
+}
+
+
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:black;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #1E6BC4;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.membro-equipe {
+    text-align: center;
+    margin: 20px;
+    gap: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+}
+.membro-equipe h3 {
+    padding-bottom: 10px;
+}
+.membro-equipe img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color:#1E6BC4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.button {
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .4s;
+}
+.button1:hover {
+    background-color: #7372be;
+}
+.button1 a {
+    color: #fff;
+}
+
+button:hover {
+    background-color: #1E6BC4;
+}
+
+footer {
+    text-align: center;
+    background-color: #1e6cc49a;
+    color: #fff;
+    padding: 5px;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A.S. Contabilize</title>
+    <link rel="stylesheet" href="stilos.css">
+</head>
+<body>
+   
+    <header>
+        <div>
+            <img id="logo" src="https://media.licdn.com/dms/image/D4D16AQElmBiATs1V-Q/profile-displaybackgroundimage-shrink_350_1400/0/1676116226738?e=1704931200&v=beta&t=wF_LJUOnjiQtGPm1pJ4PEXZmyOUdoga3TKr8U6Nt584" alt="" width="80%">
+   
+        <h1>A.S. Contabilize</h1>
+        <nav>
+           
+            <ul>
+               
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#equipe">Equipe</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+    
+        </nav>
+    </div>
+    </header>
+
+    <section id="servicos">
+        <h2>Serviços de Contabilidade:</h2>
+       
+        <ul>
+            <li>Contabilidade Fiscal</li>
+            <li>Consultoria Financeira (MEI)</li>
+            <li>Impostos e Declarações</li>
+           
+        </ul>
+    </section>
+
+    <section id="equipe">
+        <h2>Nossa Equipe</h2>
+        <div class="membro-equipe">
+            <img src="https://media.licdn.com/dms/image/D4D03AQHQC03d088ygw/profile-displayphoto-shrink_200_200/0/1678744464051?e=1704931200&v=beta&t=lYuR-yACk8Nlx3rT6R3czOzYSxCpU3Nkc5_gGR6oq6M" alt="Membro da equipe 1">
+            <h3>Augusto Sousa</h3>
+            <p>Meu compromisso é oferecer serviços de alta qualidade, fornecendo soluções personalizadas para atender às necessidades individuais de meus clientes. Tenho um profundo conhecimento das leis fiscais em constante evolução e estou constantemente atualizado para garantir que meus clientes aproveitem ao máximo as oportunidades fiscais disponíveis.</p>
+            <button class="button1 button"><a href="https://api.whatsapp.com/send?phone=5585996556284" target="_blank">Marque uma
+               consultoria</a></button>
+        </div>
+       
+    </section>
+
+    <section id="contato">
+        <h2>Entre em Contato</h2>
+        <p>Estamos aqui para ajudar. Entre em contato conosco:</p>
+        <form action="enviar_email.php" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+            <button type="submit">Enviar Mensagem</button>
+        </form>
+    </section>
+  
+
+    <footer>
+        <p>&copy; Desenvolvido por <a href="#" target="_blank">@Maiarabars</a></p>
+    </footer>
+    <script src="formulario.js">
+
+    </script>
+</body>
+</html>
